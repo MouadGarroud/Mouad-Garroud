@@ -1,0 +1,39 @@
+
+.link {
+  text-decoration: none;
+  position: relative;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 3px;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+.link:hover {
+  color: red;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+#home {
+  background: linear-gradient(90deg, #000428, #004e92);
+  padding-top: 80px; /* space below fixed nav */
+}
