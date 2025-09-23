@@ -1,4 +1,8 @@
+body{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 
+}
 .link {
   text-decoration: none;
   position: relative;
@@ -36,4 +40,18 @@ nav {
 #home {
   background: linear-gradient(90deg, #000428, #004e92);
   padding-top: 80px; /* space below fixed nav */
+}
+
+.title {
+  display: inline-block;      
+  border-bottom: 3px solid red;
+  padding-bottom: 2px;    
+  font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+
+.picture img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
 }
